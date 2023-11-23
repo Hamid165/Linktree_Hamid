@@ -1,27 +1,21 @@
 body {
   margin: 0;
+  padding: 0;
   background-image: url(bg.jpg);
-  /* background-color: #239afb; */
-  font: normal 75% Arial, Helvetica, sans-serif;
-}
-canvas {
-  display: block;
-  vertical-align: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
 }
 
-.container,
-#particles-js {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+.container {
+  font-family: Poppins, Arial, sans-serif;
+  color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: center; /* Menengahkan konten */
+  margin-top: 20px;
+
 }
 
 .logo {
@@ -30,9 +24,8 @@ canvas {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 3px solid #ffffff;
-  margin-bottom: 20px;
-  margin-top: 50px;
+  border: 3px solid #ccc;
+  margin-bottom: 10px;
 }
 
 .portfolio-handle {
@@ -43,7 +36,7 @@ canvas {
 .link-list {
   list-style-type: none;
   padding: 0;
-  width: 30%;
+  width: 600px;
 }
 
 .link-list li {
@@ -53,7 +46,7 @@ canvas {
 .link-list a {
   text-decoration: none;
   color: white;
-  border: 2px solid #E0F4FF;
+  border: 2px solid #713ABE;
   padding: 10px;
   display: block;
   text-align: center;
@@ -62,20 +55,13 @@ canvas {
 }
 
 .link-list a:hover {
-  background-color: #94daff;
+  background-color: #E5CFF7;
   color: black;
   transform: scale(1.1);
 }
+
 @media (max-width: 500px) {
-  body {
-    background-size: cover;
-  }
-}
-@media (max-width: 500px) {
-  .container {
-    padding: 0 10px;
-  }
   .link-list {
-    width: 100%;
+    width: 350px;
   }
 }
