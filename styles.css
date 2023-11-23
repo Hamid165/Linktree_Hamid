@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background-color: #239afb;
+  background-image: url(bg.jpg);
+  /* background-color: #239afb; */
   font: normal 75% Arial, Helvetica, sans-serif;
 }
 canvas {
